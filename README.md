@@ -129,7 +129,7 @@ python -m streamlit run app.py
 
 The application will open in your web browser.
 
-## 📦 Requirements
+## Requirements
 
 The project uses the following main dependencies:
 
@@ -142,7 +142,7 @@ openpyxl>=3.1
 xlrd>=2.0
 ```
 
-## 🔄 Application Workflow
+## Application Workflow
 
 ```text
 Upload Dataset
@@ -160,7 +160,7 @@ Automated Insights
 Export Cleaned Dataset
 ```
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This project demonstrates practical data science and analytics skills, including:
 
@@ -175,7 +175,7 @@ This project demonstrates practical data science and analytics skills, including
 
 The application is designed as a portfolio project demonstrating how Python-based analytics can turn raw tabular datasets into useful, interactive analytical outputs.
 
-## 💼 Portfolio Description
+## Portfolio Description
 
 **AI Data Analyst — Python, Pandas, Plotly & Streamlit**
 
@@ -183,7 +183,7 @@ Developed an interactive data analytics application that automates common data-a
 
 **Technologies:** Python, Pandas, NumPy, Plotly, Streamlit, OpenPyXL, xlrd.
 
-## 🔮 Future Development
+## Future Development
 
 Potential Version 3 features include:
 
@@ -196,13 +196,13 @@ Potential Version 3 features include:
 - Anomaly detection
 - Advanced statistical analysis
 
-## ⚠️ Responsible Use
+## Responsible Use
 
 Automated insights are intended to assist exploratory analysis.
 
 Important academic, financial, business, medical, or other high-impact decisions should not be made solely from automatically generated insights. Results should be validated against the original dataset and appropriate domain knowledge.
 
-## 📄 Version
+## Version
 
 **Version 2.0 — Portfolio Release**
 
