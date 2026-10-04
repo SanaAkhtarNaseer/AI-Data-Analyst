@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 import plotly.express as px
 
-st.set_page_config(page_title="AI Business Data Analyst", page_icon="📊", layout="wide")
+st.set_page_config(page_title="AI Data Analyst", page_icon="📊", layout="wide")
 
 st.title("📊 AI Data Analyst")
 st.caption(
@@ -195,13 +195,9 @@ with st.sidebar:
     st.header("Data source")
     uploaded = st.file_uploader("Upload CSV or Excel", type=["csv","xlsx","xls"])
     st.title("📊 AI Data Analyst")
-st.caption(
-    "Upload a CSV or Excel dataset, assess data quality, clean missing values, "
-    "explore interactive analytics, and generate automated insights."
-)
 
 if uploaded is None:
-    st.info("Upload a dataset from the sidebar. The project ZIP also contains a sample business dataset.")
+    st.info("Upload a CSV or Excel dataset from the sidebar to begin your analysis.")
     st.stop()
 
 try:
