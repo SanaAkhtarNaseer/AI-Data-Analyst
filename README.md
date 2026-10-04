@@ -1,8 +1,14 @@
+## 🚀 Live Demo
+
+Try the deployed application here:
+
+**[Launch Analytica Data](https://analytica-data.streamlit.app/)**
+
 # 📊 AI Data Analyst
 
 A portfolio-ready Streamlit application that transforms CSV and Excel datasets into an interactive data analytics dashboard with automated data cleaning, visualization, insights, and export capabilities.
 
-## 🚀 Features
+## Features
 
 - Upload CSV and Excel datasets
 - Automatically inspect dataset structure
@@ -28,7 +34,7 @@ A portfolio-ready Streamlit application that transforms CSV and Excel datasets i
 - Detect potential numeric outliers using the IQR method
 - Export cleaned datasets as CSV or Excel
 
-## 🧹 Data Quality & Cleaning
+## Data Quality & Cleaning
 
 The application provides an interactive data-cleaning workflow.
 
@@ -45,7 +51,7 @@ Users can:
 
 This allows the original and processed data to be compared before further analysis.
 
-## 📊 Interactive Visual Explorer
+## Interactive Visual Explorer
 
 The Visual Explorer allows users to dynamically select:
 
@@ -78,7 +84,7 @@ The insight engine is designed to work across different types of datasets rather
 
 > The generated insights are deterministic analytics rather than LLM-generated claims. Important conclusions should always be validated against the original dataset and domain context.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - Python
 - Streamlit
@@ -88,19 +94,19 @@ The insight engine is designed to work across different types of datasets rather
 - OpenPyXL
 - xlrd
 
-## 📁 Supported File Formats
+## Supported File Formats
 
 - CSV (`.csv`)
 - Excel (`.xlsx`)
 - Excel (`.xls`)
 
-## 💻 Run Locally
+## Run Locally
 
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
-cd AI_Business_Data_Analyst_Portfolio
+git clone https://github.com/SanaAkhtarNaseer/AI-Data-Analyst.git
+cd AI-Data-Analyst
 ```
 
 ### 2. Install dependencies
